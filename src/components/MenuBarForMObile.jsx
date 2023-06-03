@@ -20,11 +20,11 @@ const MenuBarForMobile = () => {
           id="myLinks"
           className={isMenuOpen ? "topnav-links show" : "topnav-links hide"}
         >
-          <a href="#">Home</a>
-          <a href="#">Call with Astrologer</a>
-          <a href="#">live(Coming Soon)</a>
+          <a href="#home">Home</a>
+          <a href="#home">Call with Astrologer</a>
+          <a href="#home">live(Coming Soon)</a>
         </div>
-        <a href="#" className="icon" onClick={toggleMenu}>
+        <a href="#home" className="icon" onClick={toggleMenu}>
           <i className="fa fa-bars"></i>
         </a>
       </div>
